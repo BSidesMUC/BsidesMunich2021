@@ -38,13 +38,12 @@ conference:
   # contact e-mail, e.g., for sponsors
   email: organizers@bsidesmunich.org
   twitter: https://twitter.com/bsidesmunich
-  newsletter: http://eepurl.com/dNWt2w
   notice: 
 
   sponsors:
     contact: sponsors (at) bsidesmunich (dot) org
     #show the sponsors in the footer of every page
-    lookingfor: false
+    lookingfor: true
     footer: false #BETA
     # sponsor logos should all have the same format (at least width)
 # uncomment it to fill sponsors in
@@ -64,7 +63,7 @@ conference:
       
   dates: 
     deadline_tickets: 
-    deadline_cfp: 
+    deadline_cfp:
     workshops: 
     conference:
 
