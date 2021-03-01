@@ -57,13 +57,15 @@ conference:
     sponsorpackage_en_uri: /files/BSidesMunich2021Sponsorship-English.pdf
     sponsorpackage_de_uri: /files/BSidesMunich2021Sponsorship-Deutsch.pdf
     cfw_uri: 
-    cfp_uri: 
+    cfp_uri: https://easychair.org/conferences/?conf=bsidesmesh21
     contickets_uri: 
     contickets_state: 
       
   dates: 
     deadline_tickets: 
-    deadline_cfp:
+    deadline_cfp: 2021-03-31
+    deadline_notification: 2021-04-19
+    deadline_recording: 2021-06-01
     workshops: 
     conference:
 
