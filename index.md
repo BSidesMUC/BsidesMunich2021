@@ -1,6 +1,6 @@
 ---
 layout: textpage
-title: BSides Munich 2021 - Planning has started
+title: BSides Munich joins forces with ElbSides - #BSidesMEsh21
 
 show_map: false
 ---
