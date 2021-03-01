@@ -1,6 +1,6 @@
 ---
 layout: textpage
-title: BSides Munich joins forces with ElbSides - #BSidesMEsh21
+title: BSides Munich joins forces with Elbsides - #BSidesMEsh21
 
 show_map: false
 ---
