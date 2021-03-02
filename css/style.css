@@ -85,7 +85,15 @@
 /*  padding: 0; */
 }
 
+section#feature ul{
+  margin-left: 0;
+  list-style: none;
 
+}
+section ul {
+  margin-left: 20px;
+  list-style: disc;
+}
 
 /* Portrait */
 @media only screen 

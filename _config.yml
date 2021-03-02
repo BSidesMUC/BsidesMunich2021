@@ -66,16 +66,16 @@ conference:
     deadline_cfp: 2021-03-31
     deadline_notification: 2021-04-19
     deadline_recording: 2021-06-01
-    workshops: 
-    conference:
+    workshops: 2021-06-20
+    conference: 2021-06-21 -- 22
 
   venue:
     workshopsday:
-      address: 
+      address: Virtual
       details: ""
       gps: 
     conferenceday:
-      address: 
+      address: Virtual
       details: ""
       gps:
   archive:

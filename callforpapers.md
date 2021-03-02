@@ -27,6 +27,16 @@ We are soliciting talks on computer security topics, but are not limited to the 
 
 We will do our best to provide mentors for all speakers who want additional feedback and support. We especially encourage first time speakers to take advantage of this service. 
 
+## Instructions
+
+- You will need an account with Easychair. Either create one or use an existing account if you have used EasyChair before
+- Then, go to the [Easychair BSidesMEsh21 page]({{ site.conference.links.cfp_uri }})
+- Add yourself and any additional authors
+- Add a title and the abstract in English. Please make the abstract convincing!
+- Add at least 3 keywords that classify your submission
+- If you already have a completed presentation or paper, you may add it as well. This is neither mandatory nor a replacement for a good abstract. It doesn’t have to be the final presentation or paper.
+- We will give you the opportunity to publish your final presentation or paper after the conference.
+
 {% include callforaction_buttons.html %}
 
 ## Rookie Speakers
