@@ -76,6 +76,14 @@
   padding: 0;
 }
 
+li {
+  color: #7B7B7B;
+}
+
+.feature-box li {
+  color: #000000;
+}
+
 .speaker-image img {
   width: 150px;
   margin-top: 15px;
