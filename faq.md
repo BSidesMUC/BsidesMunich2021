@@ -1,7 +1,7 @@
 ---
 layout: textpage
 title: FAQs
-
+permalink: /faq/
 show_map: false
 ---
 
