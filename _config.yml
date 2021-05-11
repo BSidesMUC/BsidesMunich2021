@@ -53,6 +53,21 @@ conference:
       logo: /img/sponsors/elbsides.png
       uri: https://2021.elbsides.de
 
+    helium:
+    - name: Blaze Information Security Lda.
+      logo: /img/sponsors/Blaze_Information_Security_Logo_Horizontal_Main_Yellow_Large.png
+      uri: https://www.blazeinfosec.com/
+
+    neon:
+    - name: CYRES Consulting Services GmbH
+      logo: /img/sponsors/Cyres_Logo_4C.png
+      uri: http://cyres-consulting.com/
+
+    argon:
+    - name: Maltego
+      logo: /img/sponsors/Maltego-Logo-Horizontal-Black.png
+      uri: https://www.maltego.de
+
   links:
     sponsorpackage_en_uri: /files/BSidesMunich2021Sponsorship-English.pdf
     sponsorpackage_de_uri: /files/BSidesMunich2021Sponsorship-Deutsch.pdf

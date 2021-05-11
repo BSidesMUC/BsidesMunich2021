@@ -272,3 +272,6 @@ section ul {
 .sponsor-list {
   text-align: center;
 }
+.sponsor-platinum img {
+  max-width: 300px;
+}

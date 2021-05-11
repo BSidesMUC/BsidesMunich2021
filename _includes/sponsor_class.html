@@ -1,18 +1,19 @@
 
 {% if include.class %}
-  {% if include.class == site.conference.sponsors.platinum %}
+  {% if include.class == site.conference.sponsors.argon %}
+    {% assign logoalignment = "col-md-offset-3 col-md-6" %}
     {% assign classname = "sponsor-platinum" %}
-    {% assign classtext = "Platinum Sponsor" %}
-  {% elsif include.class == site.conference.sponsors.gold %}
-    {% assign classname = "sponsor-gold" %}
-    {% assign classtext = "Gold Sponsor" %}
-  {% elsif include.class == site.conference.sponsors.silver %}
+    {% assign classtext = "Argon Sponsor" %}
+  {% elsif include.class == site.conference.sponsors.neon %}
+    {% assign logoalignment = "col-md-3" %}
     {% assign classname = "sponsor-silver" %}
-    {% assign classtext = "Silver Sponsor" %}
-  {% elsif include.class == site.conference.sponsors.bronze %}
+    {% assign classtext = "Neon Sponsor" %}
+  {% elsif include.class == site.conference.sponsors.helium %}
+    {% assign logoalignment = "col-md-3" %}
     {% assign classname = "sponsor-bronze" %}
-    {% assign classtext = "Bronze Sponsor" %}
+    {% assign classtext = "Helium Sponsor" %}
   {% elsif include.class == site.conference.sponsors.community %}
+    {% assign logoalignment = "col-md-offset-3 col-md-6" %}
     {% assign classname = "sponsor-community" %}
     {% assign classtext = "Community Sponsor" %}
   {% endif %}
@@ -26,7 +27,7 @@
 
       <div class="sponsor-list {{ classname }}">
       {% for sponsor in include.class %}
-        <div class="col-md-3 col-sm-6 col-xs-12 sponsor">
+        <div class="{{ logoalignment }} col-sm-6 col-xs-12 sponsor">
           <div class="image-container vcenter">
           {% if sponsor.uri %}
             <a href="{{ sponsor.uri }}">

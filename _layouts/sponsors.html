@@ -33,19 +33,17 @@ layout: default
 </section>
 {% endif %}
 
-{% if site.conference.sponsors.platinum or site.conference.sponsors.gold or site.conference.sponsors.silver or site.conference.sponsors.bronze or site.conference.sponsors.community %}
+{% if site.conference.sponsors.argon or site.conference.sponsors.helium or site.conference.sponsors.neon or site.conference.sponsors.community %}
 
 <!-- sponsors Start -->
 <section id="sponsors">
   <div class="container sponsorlogos">
 
-{% include sponsor_class.html class=site.conference.sponsors.platinum %}
+{% include sponsor_class.html class=site.conference.sponsors.argon %}
 
-{% include sponsor_class.html class=site.conference.sponsors.gold %}
+{% include sponsor_class.html class=site.conference.sponsors.neon %}
 
-{% include sponsor_class.html class=site.conference.sponsors.silver %}
-
-{% include sponsor_class.html class=site.conference.sponsors.bronze %}
+{% include sponsor_class.html class=site.conference.sponsors.helium %}
 
 {% include sponsor_class.html class=site.conference.sponsors.community %}
 
