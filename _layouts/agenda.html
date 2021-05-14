@@ -36,17 +36,25 @@ layout: default
     <div class="row">
        
 {% for track in (1..4) %}
-      <div class="p-12 col-lg-12 col-md-4">
+      <div class="p-12 col-lg-3 col-md-3">
         <div class="card">
           <div class="card-block text-center card-primary p-2">
             <h2>Track {{ track }}</h2>
           </div>
           <ul class="list-group list-group-flush">
 
+
 {% assign talks = site.workshops | where: "track",track | where: "accepted",true | sort: 'timeslot.start' %}
 {% for talk in talks %}
-{% assign start = talk.timeslot.start | date: '%H:%M' %}
-{% assign end = talk.timeslot.end | date: '%H:%M' %}
+
+{% assign startTime = talk.timeslot.start | date: '%s' %}
+
+{% assign startTimeString = startTime | date: '%H:%M' %}
+
+{% assign minutesToSec = talk.timeslot.duration | times: 60 %}
+{% assign endTime = startTime | plus: minutesToSec %}
+{% assign prevEndTime = endTime %}
+{% assign endTimeString = endTime | date: '%H:%M' %}
 
 {% assign speakers = talk.speakers | map: 'name' %}
 {% assign speakers_string = speakers | join: " & " %}
@@ -54,12 +62,12 @@ layout: default
     <li class="list-group-item">
     {% if talk.details %}
       <a href="{{ talk.url | relative_url }}">
-        <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
+        <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ startTimeString }} - {{ endTimeString }}<br>
         <b>{{ talk.title }}</b><br>
         <i>{{ speakers_string }}</i>
       </a>
     {% else %}
-      <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
+      <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ startTimeString }} - {{ endTimeString }}<br>
       <b>{{ talk.title }}</b><br>
       <i>{{ speakers_string }}</i>
     {% endif %}
@@ -96,27 +104,54 @@ layout: default
     </div>
 
     <div class="row">
-      <div class="p-3 col-lg-3"></div>
       
-{% for track in (1..1) %}      
+{% for track in (1..2) %}      
       <div class="p-6 col-lg-6 col-md-6">
         <div class="card">
           <div class="card-block text-center card-primary p-2">
-          {% if track == 42 %}
-            <h2>10X Track</h2>
-          {% elsif track == 123 %}
-            <h2>Moonshot Track </h2>
+          {% if track == 1 %}
+            <h2>2021-06-21</h2>
+          {% elsif track == 2 %}
+            <h2>2021-06-22</h2>
           {% else %}
             <h2>Track {{ track }}</h2>
           {% endif %}
           </div>
             <ul class="list-group list-group-flush">
 
+{% assign prevEndTime = 0 %}
+
 {% assign sorted = site.talks | where: "track",track | where: "accepted",true | sort: 'timeslot.start' %}
 {% for talk in sorted %}
+
+{% assign startTime = prevEndTime %}
+
+{% if prevEndTime == 0 %}
+{% assign startTime = talk.timeslot.start | date: '%s' %}
+{% endif %}
+
+{% assign startTimeString = startTime | date: '%H:%M' %}
+
+{% assign minutesToSec = talk.timeslot.duration | times: 60 %}
+{% assign endTime = startTime | plus: minutesToSec %}
+{% assign prevEndTime = endTime %}
+{% assign endTimeString = endTime | date: '%H:%M' %}
+
+{% if talk.title != "" %}
+
+<!--
 {% assign start = talk.timeslot.start | date: '%H:%M' %}
 {% assign end = talk.timeslot.end | date: '%H:%M' %}
-{% if talk.title != "" %}
+
+{% assign endTimeString2 = endTime | date: '%Y-%m-%dT%H:%M' %}
+{% assign startTimeString2 = talk.timeslot.start | date: '%Y-%m-%dT%H:%M' %}
+<pre>{{ talk.timeslot.start | date: '%s' }}</pre>
+<pre>{{ startTimeString2 }}</pre>
+<pre>{{ minutesToSec }}</pre>
+<pre>{{ endTime }}</pre>
+<pre>{{ endTimeString2 }}</pre>
+<pre>{{ endTimeString2 | date: '%s' }}</pre>
+//-->
 
 {% assign speakers = talk.speakers | map: 'name' %}
 {% assign speakers_string = speakers | join: " & " %}
@@ -128,7 +163,7 @@ layout: default
   {% endif %}
     {% if talk.details %}
       <a href="{{ talk.url | relative_url }}">
-        <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
+        <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ startTimeString }} - {{ endTimeString }}<br>
         <b>{{ talk.title }}</b>
         <br>
         <i>{{ speakers_string }}</i>
@@ -151,7 +186,7 @@ layout: default
       {% endif %}
       
     {% else %}
-      <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
+      <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ startTimeString }} - {{ endTimeString }}<br>
       <b>{{ talk.title }}</b><br>
       <i>{{ speakers_string }}</i>
     {% endif %}
@@ -163,7 +198,6 @@ layout: default
       </div>
 {% endfor %}  
       
-      <div class="p-2 col-lg-2"></div>
     </div>
 {% endif %}
  

@@ -6,6 +6,7 @@ url: "https://2021.bsidesmunich.org" # the base hostname & protocol for your sit
 baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
+timezone: Europe/Berlin
 
 # Build settings
 markdown: kramdown
