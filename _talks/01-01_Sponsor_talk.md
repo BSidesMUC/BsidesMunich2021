@@ -8,7 +8,7 @@ timeslot:
   start: 2021-06-21T13:35:00+02:00
   duration: 20
 speakers: 
-  - name: AIRBUS
+  - name:
     photo: 
     handle: 
     bio: 
