@@ -22,6 +22,15 @@ layout: default
 </section>
 {% endif %}
 
+{% assign startTime = page.timeslot.start | date: '%s' %}
+
+{% assign startTimeString = startTime | date: '%Y-%m-%d %H:%M' %}
+
+{% assign minutesToSec = page.timeslot.duration | times: 60 %}
+{% assign endTime = startTime | plus: minutesToSec %}
+{% assign prevEndTime = endTime %}
+{% assign endTimeString = endTime | date: '%Y-%m-%d %H:%M' %}
+
 <!-- Call to action Start -->
 <section id="agenda">
   <div class="container">
@@ -30,8 +39,8 @@ layout: default
         <div class="block">
           <h2>Infos</h2>
           <p>
-          Start: {{ page.timeslot.start }}<br>
-          End: {{ page.timeslot.end }}<br>
+          Start: {{ startTimeString }}<br>
+          End: {{ endTimeString }}<br>
         {% if site.conference.venue.workshopsday.address %}
           Location: {{ site.conference.venue.workshopsday.address }}
         {% endif %}
