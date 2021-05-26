@@ -1,7 +1,7 @@
 ---
 layout: workshop
 title: Finding and exploiting basic buffer overflows
-details: false
+details: true
 track: 1
 accepted: true
 timeslot:
@@ -12,9 +12,9 @@ links:
 speakers:
   - name: Christian Gross
     handle: 
-    bio:  ""- 3.5 years of working experience in Infosec 
+    bio:  "- 3.5 years of working experience in Infosec 
 - Infosec as a hobby / past-time since teenage years 
-- OSCP/OSCE holder""
+- OSCP/OSCE holder"
 ---
 
 Binary exploitation is one of the oldest IT security topics but it is still very relevant today.

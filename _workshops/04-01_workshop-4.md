@@ -1,7 +1,7 @@
 ---
 layout: workshop
 title: Fuzzing and finding vulnerabilities on Linux
-details: false
+details: true
 track: 4
 accepted: true
 timeslot:

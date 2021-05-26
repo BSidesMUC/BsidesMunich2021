@@ -1,7 +1,7 @@
 ---
 layout: workshop
 title: OSINT for Cyber Defenders
-details: false
+details: true
 track: 2
 accepted: true
 timeslot:

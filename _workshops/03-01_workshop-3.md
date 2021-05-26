@@ -1,7 +1,7 @@
 ---
 layout: workshop
 title: The Sorcery of Malware Reverse Engineering
-details: false
+details: true
 track: 3
 accepted: true
 timeslot:

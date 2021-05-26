@@ -1,7 +1,7 @@
 ---
 layout: workshop
 title: OpenSourced Threat Hunting with Graylog + MISP + Sysmon
-details: false
+details: true
 track: 4
 accepted: true
 timeslot:
