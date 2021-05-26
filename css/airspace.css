@@ -241,9 +241,6 @@ font header .navbar-default .navbar-nav li a:hover {
 	speaker Start
 --*/
 #speaker {
-  background: url("../img/call-to-action-bg.jpg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
   padding: 70px 0px;
   position: relative;
   text-align: left;
@@ -274,9 +271,6 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-  background: url("../img/call-to-action-bg.jpg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
   padding: 70px 0px;
   position: relative;
   text-align: center;

@@ -12,7 +12,8 @@ links:
 speakers:
   - name: Mario Rojas
     handle: 
-    bio:  ""
+    bio:  "An accomplished information security professional with more than 10 years of experience. Proven ability to develop strategies and security road maps that create sustainable and creative compliance programs. I offer a diverse security background combined with strong problem-solving-based values. \n\n
+Having dedicated my life to this field, I am passionate about having a hacker mentality to tackle risk management and threat analysis. For me, it goes beyond only fixing what's already broken, but rather being proactive about security, identifying our vulnerabilities ahead of time. I am known for creative solutions that stem from expert technical knowledge."
 ---
 
 There is a constant battle between Cyber Defenders trying to protect their networks and the Threat Actors whose tactics and techniques keep evolving to circumvent our security solutions. 
