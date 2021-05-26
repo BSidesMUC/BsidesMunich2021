@@ -14,3 +14,9 @@ speakers:
     handle: 
     bio:  ""
 ---
+
+There is a constant battle between Cyber Defenders trying to protect their networks and the Threat Actors whose tactics and techniques keep evolving to circumvent our security solutions. 
+
+Our best chance against these actors comes from understanding how they think and operate; analyzing information about these group's intent, capability, and motivations allows Cyber Defenders to be better prepared when an incident happens. 
+
+In this workshop, we will learn ways to use OSINT in our favor during the Incident Response process. 
