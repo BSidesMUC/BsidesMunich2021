@@ -58,11 +58,17 @@ conference:
     - name: Blaze Information Security Lda.
       logo: /img/sponsors/Blaze_Information_Security_Logo_Horizontal_Main_Yellow_Large.png
       uri: https://www.blazeinfosec.com/
+    - name: sepago GmbH
+      logo: /img/sponsors/sepago_print_gross_freigestellt-klein.png
+      uri: https://www.sepago.de/en/home/
 
     neon:
     - name: CYRES Consulting Services GmbH
       logo: /img/sponsors/Cyres_Logo_4C.png
       uri: http://cyres-consulting.com/
+    - name: Huawei
+      logo: /img/sponsors/huawei-1.png
+      uri: https://www.huawei.com/en/
 
     argon:
     - name: Maltego Technologies GmbH
