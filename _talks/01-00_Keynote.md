@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Elbsides Keynote"
+title: "Elbsides Keynote - Practice DevSecOps and Beyond"
 details: false
 track: 1
 accepted: true
