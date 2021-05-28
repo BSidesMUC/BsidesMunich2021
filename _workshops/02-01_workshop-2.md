@@ -8,7 +8,7 @@ timeslot:
   start: 2021-06-20T10:00:00+02:00
   duration: 240
 links:
-  wstickets_uri: 
+  wstickets_uri: https://pretix.eu/BSidesMEsh21/Workshops-CTF/
 speakers:
   - name: Mario Rojas
     handle: 

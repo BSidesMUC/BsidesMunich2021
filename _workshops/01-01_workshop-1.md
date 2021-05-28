@@ -8,13 +8,16 @@ timeslot:
   start: 2021-06-20T10:00:00+02:00
   duration: 240
 links:
-  wstickets_uri: 
+  wstickets_uri: https://pretix.eu/BSidesMEsh21/Workshops-CTF/
 speakers:
   - name: Christian Gross
     handle: 
     bio:  "- 3.5 years of working experience in Infosec \n
 - Infosec as a hobby / past-time since teenage years \n
 - OSCP/OSCE holder"
+  - name: Sarah Mader
+    handle: 
+    bio:  ""
 ---
 
 Binary exploitation is one of the oldest IT security topics but it is still very relevant today.

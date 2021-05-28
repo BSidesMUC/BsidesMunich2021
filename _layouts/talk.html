@@ -60,4 +60,8 @@ layout: default
   </div>
 </section>
 
-{% include speakerinfo.html %} 
+{% if page.speakers %}
+
+{% include speakerinfo.html %}
+
+{% endif %}
