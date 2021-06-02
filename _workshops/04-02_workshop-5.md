@@ -13,7 +13,12 @@ speakers:
   - name: Bruno Diniz
     photo: 
     handle: brunogdiniz
-    bio:  "Cyber Security Executive with 15+ year experience background on Cyber and Information Security. Strong experience leading cyber operations teams and services, with intelligence-led and business thinking mindset. Critical thinking and problem-solve approach. Experienced multi-vendor, multi-customer, multi-vertical environment with good negotiation skills."
+    bio: |
+      Cyber Security Executive with 15+ year experience background on Cyber and Information Security.
+      Strong experience leading cyber operations teams and services, with intelligence-led and business thinking mindset.
+      Critical thinking and problem-solve approach.
+      Experienced multi-vendor, multi-customer, multi-vertical environment with good negotiation skills.
+
 ---
 
 Show an Open Source yet powerful SETUP and conduct Auto Hunting (IOC Matching Rules) and IOC/TTP based Threat Hunting with Graylog Log Processor.

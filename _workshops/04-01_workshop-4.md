@@ -13,9 +13,16 @@ speakers:
   - name: Hardik Shah
     photo: 
     handle: hardik05
-    bio:  "Hardik Shah is an experienced security researcher and technology evangelist. He is currently working with McAfee as a vulnerability researcher. Hardik has found many vulnerabilities in windows and other open source software. He was also MSRC most valuable researcher for year 2019 and Top contributing researcher for Q1 2020. Hardik enjoys analyzing latest threats and figuring out ways to protect customers from them. 
-You can follow him on twitter @hardik05 and read some of his blogs here: 
-https://www.mcafee.com/blogs/author/hardik-shah"
+    bio: |
+      Hardik Shah is an experienced security researcher and technology evangelist.
+      He is currently working with McAfee as a vulnerability researcher.
+      Hardik has found many vulnerabilities in windows and other open source software.
+      He was also MSRC most valuable researcher for year 2019 and Top contributing researcher for Q1 2020.
+      Hardik enjoys analyzing latest threats and figuring out ways to protect customers from them.
+
+      
+      You can follow him on twitter @hardik05 and read some of his blogs here: 
+       - https://www.mcafee.com/blogs/author/hardik-shah
 ---
 
 In this workshop, we will discuss what is fuzzing how does fuzzer works, what are different types of fuzzers and how to use them to fuzz various open source softwares on linux. First we will have basic introduction to different types of vulnerabilities like integer overflow/underflow, stack/heap overflow/out of bound read/write which are very common in software, we will also see some example of real world vulnerabilities to get an understanding of these vulnerability types. 

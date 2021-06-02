@@ -12,9 +12,10 @@ links:
 speakers:
   - name: Christian Gross
     handle: 
-    bio:  "- 3.5 years of working experience in Infosec \n
-- Infosec as a hobby / past-time since teenage years \n
-- OSCP/OSCE holder"
+    bio:  |
+      - 3.5 years of working experience in Infosec
+      - Infosec as a hobby / past-time since teenage years
+      - OSCP/OSCE holder
   - name: Sarah Mader
     handle: 
     bio:  ""
