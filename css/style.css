@@ -275,3 +275,6 @@ section ul {
 .sponsor-platinum img {
   max-width: 300px;
 }
+.sponsor-silver div {
+  height: 120px;
+}

@@ -61,19 +61,36 @@ conference:
     - name: sepago GmbH
       logo: /img/sponsors/sepago_print_gross_freigestellt-klein.png
       uri: https://www.sepago.de/en/home/
+    - name: YES WE HACK
+      logo: /img/sponsors/YWH-black.png
+      uri: https://www.yeswehack.com 
 
     neon:
     - name: CYRES Consulting Services GmbH
       logo: /img/sponsors/Cyres_Logo_4C.png
       uri: http://cyres-consulting.com/
+    - name: Google
+      logo: /img/sponsors/Google_FullColor_hdpi_270x89px.png
+      uri:  https://www.google.com
     - name: Huawei
       logo: /img/sponsors/huawei-1.png
       uri: https://www.huawei.com/en/
+    - name: NSIDE ATTACK LOGIC GmbH
+      logo: /img/sponsors/NSIDE.png
+      uri:  https://www.nsideattacklogic.de/
+    - name: SIEMENS
+      logo: /img/sponsors/siemens.png
+      uri: https://siemens.com/cert/
 
     argon:
     - name: Maltego Technologies GmbH
       logo: /img/sponsors/Maltego-Logo-Horizontal-Black.png
       uri: https://www.maltego.com
+
+    krypton:
+    - name: Graylog
+      logo: /img/sponsors/graylog.png
+      uri: https://www.graylog.org/
 
   links:
     sponsorpackage_en_uri: /files/BSidesMunich2021Sponsorship-English.pdf

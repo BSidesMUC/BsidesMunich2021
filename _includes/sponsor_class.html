@@ -1,11 +1,15 @@
 
 {% if include.class %}
-  {% if include.class == site.conference.sponsors.argon %}
+  {% if include.class == site.conference.sponsors.krypton %}
+    {% assign logoalignment = "col-md-offset-3 col-md-6" %}
+    {% assign classname = "sponsor-platinum" %}
+    {% assign classtext = "Krypton Sponsor" %}
+  {% elsif include.class == site.conference.sponsors.argon %}
     {% assign logoalignment = "col-md-offset-3 col-md-6" %}
     {% assign classname = "sponsor-platinum" %}
     {% assign classtext = "Argon Sponsor" %}
   {% elsif include.class == site.conference.sponsors.neon %}
-    {% assign logoalignment = "col-md-3" %}
+    {% assign logoalignment = "col-md-4" %}
     {% assign classname = "sponsor-silver" %}
     {% assign classtext = "Neon Sponsor" %}
   {% elsif include.class == site.conference.sponsors.helium %}
