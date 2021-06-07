@@ -278,3 +278,9 @@ section ul {
 .sponsor-silver div {
   height: 120px;
 }
+#speaker ul {
+  margin-bottom: 3rem;
+}
+#speaker li {
+  color: white;
+}
