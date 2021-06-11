@@ -11,14 +11,17 @@ links:
   wstickets_uri: https://pretix.eu/BSidesMEsh21/Workshops-CTF/
 speakers:
   - name: Christian Gross
-    handle: 
+    handle: gravitons13
     bio:  |
       - 3.5 years of working experience in Infosec
       - Infosec as a hobby / past-time since teenage years
       - OSCP/OSCE holder
   - name: Sarah Mader
     handle: 
-    bio:  ""
+    bio:  |
+      - Freshly graduated Master student with 1.5 years of working experience in Infosec
+      - Main focus on IoT / Hardware hacking, especially Bluetooth technology
+      - Binary Exploitation / Reverse Engineering Hobbyist
 ---
 
 Binary exploitation is one of the oldest IT security topics but it is still very relevant today.
