@@ -44,7 +44,7 @@ conference:
   sponsors:
     contact: sponsors (at) bsidesmunich (dot) org
     #show the sponsors in the footer of every page
-    lookingfor: true
+    lookingfor: false
     footer: false #BETA
     # sponsor logos should all have the same format (at least width)
 # uncomment it to fill sponsors in
@@ -63,7 +63,10 @@ conference:
       uri: https://www.sepago.de/en/home/
     - name: YES WE HACK
       logo: /img/sponsors/YWH-black.png
-      uri: https://www.yeswehack.com 
+      uri: https://www.yeswehack.com
+    - name: Exabeam
+      logo: /img/sponsors/Exabeam_logo_ primary_ dark.png
+      uri: https://www.exabeam.com/
 
     neon:
     - name: CYRES Consulting Services GmbH
