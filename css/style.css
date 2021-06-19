@@ -67,10 +67,6 @@
     text-align: center;
 }
 
-#agenda .keynote-talk b:before {
-  content: "KEYNOTE - ";
-}
-
 #intro .sponsorlogos img {
   width: auto;
   padding: 0;
