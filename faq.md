@@ -27,7 +27,7 @@ BSides is all about building a community! During the conference, folks will have
 
 *Do you need any volunteers? How can I help?*  
 If you are interested in helping organize the conference, please reach out to volunteers@bsidesmunich.org.  Aside from this, here are some other ideas that you can help!
- * Follow us on Twitter and retweet our conference announcements! (@BsidesMunich, @elbsides)
+ * Follow us on Twitter and retweet our conference announcements! (@BsidesMunich, @elbsides) and always use #BSidesMEsh21.
  * Submit a presentation or workshop proposal!
  * Encourage someone you know with a presentation or workshop proposal to submit it!
  * We want to keep events like this free, but there are still expenses that we have to cover to make this possible. Help us to find sponsors!
