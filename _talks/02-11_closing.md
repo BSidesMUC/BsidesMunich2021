@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Closing Notes and beer bash with organizers	"
+title: "Closing Notes and Virtual Prosit with organizers"
 details: false
 track: 2
 accepted: true
