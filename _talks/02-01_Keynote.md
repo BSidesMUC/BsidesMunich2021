@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "BSidesMunich Keynote"
+title: "BSides Munich Keynote - InfoSec's Dirty Little Secrets"
 details: false
 track: 2
 accepted: true
